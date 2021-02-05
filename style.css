@@ -1,0 +1,36 @@
+.all{
+    margin: auto;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow:  2px 2px black;
+}
+
+
+#first{
+    display: flex;
+    margin-top: 20px;
+
+}
+#result{
+    border: 1px solid black;
+    height: 50px;
+    width: 292px;
+    margin-left: 1px;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+#type{
+  text-align: right;
+  width: 292px;
+  border: none;
+  outline: none;
+}
+button{
+    width: 71px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+}

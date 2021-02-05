@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+       
+        <div>
+            <p>Calculator</p>
+            <h3>simple Calculator</h3>
+        </div>
+        
+        <div>
+            <input id="type" type="text" placeholder="0" >
+        </div>
+        <input id="result" type="text"  value="0" ></input>
+        <br>
+       
+        <div>
+            <button onclick="sign('%')">%</button>
+            <button style="background-color: yellow;" onclick="sign('√')">&Sqrt; </button>
+            <button style="background-color: yellow;" onclick="sign('^')">x <sup>2</sup></button>
+            <button onclick="sign('‰')">1/x</button>
+        </div>
+        <div>
+            <button  onclick="num('')">CE</button>
+            <button style="background-color: yellow;" onclick="clr()">C</button>
+            <button style="background-color: yellow;" onclick="del('')">del</button>
+            <button onclick="sign('÷')"> &divide; </button>
+        </div>
+        <div>
+            <button  onclick="num(7)">7</button>
+            <button style="background-color: yellow;" onclick="num('8')">8</button>
+            <button style="background-color: yellow;" onclick="num('9')">9</button>
+            <button onclick="sign('*')">&times;</button>
+        </div>
+        <div>
+            <button  onclick="num(4)">4</button>
+            <button style="background-color: yellow;" onclick="num('5')">5</button>
+            <button style="background-color: yellow;" onclick="num('6')">6</button>
+            <button onclick="sign('-')">&minus;</button>
+        </div>
+        <div>
+            <button  onclick="num('1')">1</button>
+            <button style="background-color: yellow;" onclick="num('2')">2</button>
+            <button style="background-color: yellow;" onclick="num('3')">3</button>
+            <button onclick="sign('+')">&plus;</button>
+        </div>
+        <div>
+            <button onclick="num('±')">&PlusMinus;</button>
+            <button style="background-color: yellow;" onclick="num('0')">0</button>
+            <button style="background-color: yellow;" onclick="num('.')">.</button>
+            <button onclick="calc()">=</button>
+        </div>
+    
+
+    </div>
+
+    
+</body>
+</html>
+<script src="cal.js"></script>
